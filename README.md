@@ -6,8 +6,9 @@ version.
 # How to use this?
 To apply Black to a folder, in a terminal, go the folder in question and call the
 following command:
-
-`$ docker run -v pwd:/data bricep/simple_black`
+```
+$ docker run -v `pwd`:/data bricep/simple_black
+```
 
 If you prefer to run the command from another folder, you can replace _pwd_ 
 by the absolute path of the folder you want to apply black to.
